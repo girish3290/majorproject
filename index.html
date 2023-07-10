@@ -8,6 +8,9 @@
     <title>Weather App</title>
 </head>
 <body>
+    <header class="bg-success text-center py-3">
+      <h1 class="fw-bold h3 text-white my-1">Weather Dashboard</h1>
+    </header>
 
     <div class="container">
         <div class="current-info">
@@ -20,11 +23,13 @@
                     Monday, 25 May
                 </div>
 
-                <div class="others" id="current-weather-items">
-                    <input type="text"placeholder="enter the location"id="location-input">
-                    <input type="button" value="get"id="btn">
-
-                </div>
+               <div class="container-fluid my-4 weather-data">
+      <div class="row">
+        <div class="col-xxl-3 col-md-4 px-lg-4">
+          <h5 class="fw-bold">Enter a City Name</h5>
+          <input type="text" id="city-input" class="py-2 form-control" placeholder="E.g., Delhi">
+          <button id="search-btn" class="btn btn-success py-2 w-100 mt-3 mb-2">Search</button>
+        </div>
             </div>
 
             <div class="place-container">
